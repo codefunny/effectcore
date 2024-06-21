@@ -1,5 +1,5 @@
-import debounce from './debounce.js';
-import isObject from './isObject.js';
+import debounce from './debounce.ts';
+import isObject from '../utils/isObject.ts';
 
 function throttle(func, wait, options) {
     let leading = true;
